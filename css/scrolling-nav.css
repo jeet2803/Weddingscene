@@ -1,0 +1,226 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 300px 10px;
+  /* opacity: 0.8; */
+
+  /* The image used */
+  background-image: linear-gradient(
+      rgba(100, 100, 100, 0.6),
+      rgba(100, 100, 100, 0.6)
+    ), url("../img/pexels-camera-treasure-17657697.jpg");
+
+  /* Full height */
+  /* height: 50%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+section {
+  padding: 100px 0;
+
+}
+
+h2 {
+    width: 100%;
+    text-align:center;
+    font-style: italic;
+}
+
+a {
+    color: hotpink;
+  }
+
+.pcenter {
+    width: 100%;
+    text-align:center;
+}
+
+ul{
+    list-style-type:disc;
+}
+
+.section-background{
+    background-color: rgb(247, 247, 247) !important;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css");
+
+/* source code from https://bootsnipp.com/snippets/kMRrW */
+/* body {
+    padding: 60px 0px;
+    background-color: rgb(255, 255, 255);
+} */
+
+.event-list {
+    list-style: none;
+    font-family: 'Tangerine', serif;
+    margin: 0px;
+    padding: 0px;
+}
+.event-list > li {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 0px 0px rgb(51, 51, 51);
+    box-shadow: 0px 0px 0px rgba(51, 51, 51, 0.3);
+    padding: 100px;
+    margin: 0px 0px 250px;
+}
+
+.event-list > li.wedding {
+    margin: 0px 0px 400px;
+}
+
+.event-list > li.trip {
+    margin: 0px 0px 280px;
+}
+
+.event-list > li > time {
+    display: inline-block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(200, 200, 200);
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.event-list > li:nth-child(even) > time {
+    background-color: rgb(165, 165, 167);
+}
+.event-list > li > time > span {
+    display: none;
+}
+.event-list > li > time > .day {
+    display: block;
+    font-size: 38pt;
+    font-weight: 100;
+    line-height: 1;
+}
+.event-list > li time > .month {
+    display: block;
+    font-size: 16pt;
+    font-weight: 900;
+    line-height: 1;
+}
+/* .event-list > li > img {
+    width: 100%;
+} */
+.event-list > li > .info {
+    padding-top: 5px;
+    text-align: center;
+}
+.event-list > li > .info > .title {
+    font-size: 14pt;
+    font-weight: 700;
+    margin: 0px;
+}
+.event-list > li > .info > .desc {
+    font-size: 13pt;
+    font-weight: 300;
+    margin: 0px;
+}
+@media (min-width: 768px) {
+    .event-list > li {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 80px;
+        padding: 0px;
+    }
+    .event-list > li > time,
+    /* .event-list > li > img  {
+        display: inline-block;
+    } */
+    .event-list > li > time,
+    /* .event-list > li > img {
+        width: 100px;
+        float: left;
+    } */
+    .event-list-img{
+        width: 180px;
+        /* height: 100px; */
+        float: left;
+        clear: left;
+    }
+    .event-list > li > .info {
+        /* background-color: rgb(255, 255, 255); */
+        overflow: hidden;
+    }
+    .event-list > li > time,
+   /*  .event-list > li > img {
+        width: 180px;
+        height: 180px;
+        padding: 0px;
+        margin: 0px;
+    } */
+    .event-list > li > .info {
+        position: relative;
+        height: 460px;
+        text-align: left;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .event-list > li > .info > .title,
+    .event-list > li > .info > .desc {
+        padding: 10px 10px;
+    }
+    /* .event-list > li > .info > ul {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+ */
+}
+
+
+
+html,
+body{
+  padding: 0;
+  margin: 0;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.content{
+  /* height: calc(100vh - 100px); */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: rgb(230, 242, 243);
+  overflow: hidden;
+  margin: 0px 0px 20px;
+}
+
+.content > div{
+  flex: 1;
+  width: 100%;
+}
+
+.contact{
+    /* height: calc(100vh - 100px); */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: rgb(247, 247, 247);
+    overflow: hidden;
+    margin: 0px 0px 20px;
+  }
+  
+.contact > div{
+flex: 1;
+width: 100%;
+}
